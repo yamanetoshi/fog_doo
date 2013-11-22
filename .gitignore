@@ -1,0 +1,6 @@
+access_key.rb
+*~
+vendor/
+Gemfile.lock
+
+.bundle/
