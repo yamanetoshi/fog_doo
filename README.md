@@ -10,7 +10,7 @@ HOW TO USE
 ## kickoff resources
 
     $ bundle exec ruby list_doo_GIP.rb 2>/dev/null | (J\(B
-	awk '{print $1;}'|bundle exec ruby deploy_list_doo.rb
+	awk '{print $1;}'|bundle exec ruby deploy_doo.rb
 
 ## destroy resources
 
