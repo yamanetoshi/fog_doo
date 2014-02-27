@@ -44,7 +44,7 @@ Please edit access_key.rb
 
 ## destroy resources
 
-    $ bundle exec ruby list_doo_GIP.rb | awk '{print $1;}'|bundle exec ruby destroy_list_doo.rb
+    $ bundle exec ruby list_doo_GIP.rb 2>/dev/null | awk '{print $1;}'|bundle exec ruby destroy_list_doo.rb
 
 ## list resources
 
